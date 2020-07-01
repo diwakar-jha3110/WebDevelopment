@@ -1,0 +1,48 @@
+body{
+  font-family:  serif, 'Tangerine';
+  width: 600px;
+  margin: 0 auto;
+  border: 2px dotted black;
+  background-color: #FF9500;
+  padding: 0 20px 20px 15px; /* top right bottom left;*/
+  
+
+}
+.myFirstClass{
+    color: red;
+    font-size: 20px;
+  }
+
+
+  p{
+    color: red;
+  }
+
+  #myParaId{
+    background-color: sandybrown;
+    color:green;
+  }
+  img[id]{    
+    margin: 0 auto;
+    display: block;
+  }
+  a:hover{
+    font-size: 20px;
+  }
+  .dropdown #select{
+    color: red;
+  }
+
+  .box{
+    width: 400px;
+    height:400px;
+    border: 2px solid red;
+    /*padding: 10px 25px 25px 10px;*/
+    padding: 20px 50px; /* top/bottom right/left */
+    margin:10px;
+    text-shadow: 10px 20px 5px blue;
+    
+  }
+  .box2{
+    margin:20px;
+  }
