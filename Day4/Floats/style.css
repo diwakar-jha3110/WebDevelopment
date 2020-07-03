@@ -1,0 +1,75 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+   
+  }
+  
+  
+ 
+  /*.box {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    padding: 1em;
+  }
+  */
+ 
+  .box {
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    padding: 1em;
+  }
+  .special {
+    background-color: rgb(79,185,227);
+    padding: 10px;
+    color: #fff;
+  }
+/* //  with float left
+
+  .box {
+    float: right;
+    margin-left: 15px;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    padding: 1em;
+  }
+  
+
+  .special {
+    background-color: rgb(79,185,227);
+    padding: 10px;
+    color: #fff;
+  }
+ .box {
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    padding: 1em;
+  }
+  */
+  .cleared {
+   /* clear: left;*/
+  }
+ 
+.wrapper {
+    background-color: rgb(79,185,227);
+    padding: 10px;
+    color: #fff; 
+}
+
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+  
