@@ -9,16 +9,42 @@
     <!--https://fonts.googleapis.com/css?family=Tangerine-->
     <script>
   
-  let examScore = 45;
-let examHighestScore = 70;
-examReport = `You scored ${ examScore }/${ examHighestScore } (${ Math.round((examScore/examHighestScore*100)) }%). ${ examScore >= 49 ? 'Well done, you passed!' : 'Bad luck, you didn\'t pass this time.' }`;
+     // var funName2;
+    
+  console.log(funName2);
+  console.log(typeof funName);
+  funName();
+  funName2(); 
+
+   var funName2 = function () {
+     console.log("Annonymous function");
+   }
+
+   function funName (arg1, arg2) {
+    
+    console.log(`I am in function with argument ${arg1}, ${arg2}`);
+
+   }
+
+   // Variable hoisting 
+
+   funName2(); 
+   funName(10, 20);
+
+       
+
 
     </script>
    
   </head>
   <body>
-    <p> Player 1 : Sachin</p>      
-    <div>Sample Div</div>
+    <p > Player 1 : Sachin</p>
+    
+    <button onclick="createParagraph()">Click me!</button>
+    <span>Sample Div</span>
     <script src="main.js"></script>
+    <script>
+    
+    </script>
   </body>
 </html>
