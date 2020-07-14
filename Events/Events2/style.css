@@ -1,0 +1,40 @@
+p {
+     font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0,0,200,0.6); 
+    background: rgba(0,0,200,0.3);
+    color:#270bc7;
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer; 
+  }
+  .box{
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+    margin:5px;
+    float:left;
+  }
+  .parent {
+    width:400px;
+    height:300px;
+    background-color: burlywood;
+    margin:2px;
+  }
+  
+  .child {
+    width:300px;
+    height:250px;
+    background-color: cadetblue;
+  }
+
+  .grandChild {
+    width:130px;
+    height:200px;
+    background-color: red;
+    float: left;
+    margin:2px;
+  }

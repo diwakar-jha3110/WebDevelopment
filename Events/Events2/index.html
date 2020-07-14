@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My test page</title>   
+    <link rel="stylesheet" href="style.css">
+    <!--https://fonts.googleapis.com/css?family=Tangerine-->
+    
+   
+  </head>
+  <body>
+   
+   
+    <br/>
+    <h2>
+      PreventDefault</h2> and <h2>Stop Propagation</h2>
+
+
+      <a href="http://www.google.com" target="_blank" onclick="eventCheck(event)"> Google</a>
+
+
+
+      <div class="parent" onclick="fnHandleClickParent(event)"  name="parent">Parent
+          
+        <div class="child"  name="child" onclick="fnHandleClick(event)">
+
+          child 
+          <div class="grandChild"  onclick="fnHandleClickG(event)"> Grand Child</div>
+
+      </div>
+
+      </div>
+
+      <div class="parent" onclick="fnHandleClickParent(event)"  name="parent">Parent
+          
+        <div class="child"  name="child" >
+
+          child 
+          <div class="grandChild"  > Grand Child</div>
+          <div class="grandChild"  > Grand Child</div>
+
+      </div>
+
+      </div>
+
+      <div class="parent" onclick="fnHandleClickParent(event)" id="parent" name="parent">Parent
+          
+        Parnet Div for multiple click Handeler
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--div class="parent" id="parent" onclick="clickHandeler(event)"> 
+      Parent Div
+      <div class="child" id="child" onclick="clickHandeler(event)">
+        Child Div
+      </div>
+    </div-->
+    
+     <script src="main.js"></script>
+  </body>
+</html>
